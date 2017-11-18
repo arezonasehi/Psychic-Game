@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif; 
+  font-size: 18px;
+  width: 100%;
+  color: black;
+  background: url('white.png');
+}
+
+
+h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+#header{
+  background-color: #ccc;
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid grey;
+  float: top;
+  margin-top: 0px;
+}
+.container{
+  background-color: #d9d9d9;
+  width: 100%;
+  max-width: 600px;
+  height: 280px;
+  margin-left: 350px;
+}
+#guessletter{
+  float: top;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+#wins{
+  	float: top;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#losses{
+  float: top;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#guessleft{
+  float: top;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+#yourguesses{
+  float: top;
+  margin-top: 15px;
+   padding: 10px;
+}
+
+#getchoice{
+  float: top;
+  margin-top: 15px;
+   padding: 10px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #404040;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+
+}
